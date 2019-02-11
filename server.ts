@@ -34,4 +34,4 @@ app.use('/api/transform-markdown', function (req, res) {
     }
 });
 
-app.listen(PORT,() => console.log('listening'));
+app.listen(PORT,() => console.log('listening:' + PORT));
